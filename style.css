@@ -1,0 +1,423 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+nav {
+    display:flex;
+    flex-wrap:initial;
+    justify-content: left;
+     background: black;
+     
+   
+    
+    }
+    body {
+      background-color: black;
+    }
+   
+    
+    nav h1{
+        color:white;
+        font-family: 'Playfair Display', serif;
+        font-size: 40px;
+        font-style: oblique;
+        margin-top: 3px;
+        margin-left: 100px;
+        
+        
+    }
+    nav .navbart{
+        margin-top: 3px;
+        margin-left: 100px;
+        font-size: 26px;
+        
+        
+  
+    }
+    nav .navbart a{
+        text-decoration: none;
+        color: white;
+        margin-right: 10px;
+        border-bottom: 1px solid #000;
+        padding-bottom: 5px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url('picture/configurator-cw-tag-heuer-desktop.avif');
+        background-size: cover;
+        color: #fff;
+        padding: 160px;
+        
+        
+      
+    }
+    
+    
+    header h1{
+        font-family: 'Playfair Display', serif;
+        font-size: 50px;
+        
+    }
+    header h4{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    header button{
+        padding: 10px 20px;
+        background-color: #fff;
+        color:#000;
+        border:none;
+        margin-bottom: 30px;
+        outline:none;
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+        cursor: pointer;
+    }
+    .card {
+    
+        
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+          }
+          
+          .price {
+            color: grey;
+            font-size: 22px;
+          }
+          
+          .card button {
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+          }
+          
+          .card button:hover {
+            opacity: 0.7;
+          }
+          
+          .center {
+            
+                border: 5px solid;
+                display: flex;
+                justify-content: center;
+              
+          }
+          .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+          }
+          
+          .price {
+            color: grey;
+            font-size: 22px;
+          }
+          
+          .card button {
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+          }
+          
+          .card button:hover {
+            opacity: 0.7;
+          }
+          .center2
+          {
+            border: 5px solid;
+                display: flex;
+                justify-content: center;
+          }
+          .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+          }
+          
+          .price {
+            color: grey;
+            font-size: 22px;
+          }
+          
+          .card button {
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+          }
+          
+          .card button:hover {
+            opacity: 0.7;
+          }
+          .center3
+          {
+            border: 5px solid;
+                display: flex;
+                justify-content: center;
+          }
+          @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #444444;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-products {
+    padding: 80px 0 54px;
+}
+
+.section-products .header {
+    margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+    font-size: 1rem;
+    color: #fe302f;
+    font-weight: 500;
+}
+
+.section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444444; 
+}
+
+.section-products .single-product {
+    margin-bottom: 26px;
+}
+
+.section-products .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.section-products .single-product .part-1::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		transition: all 0.3s;
+}
+
+.section-products .single-product:hover .part-1::before {
+		transform: scale(1.2,1.2) rotate(5deg);
+}
+
+.section-products #product-1 .part-1::before {
+    background: url("picture/360_F_344825145_kZ1EcvP5QBcUHo4SzOf99vz38XlXVI46.jpg") no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-2 .part-1::before {
+    background: url("picture/Evolution-Luxury-Watches-Oris.webp") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-3 .part-1::before {
+    background: url("picture/photo-1523170335258-f5ed11844a49.avif") no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-4 .part-1::before {
+    background: url("picture/photo-1539874754764-5a96559165b0.avif") no-repeat center;
+    background-size: cover;
+}
+.section-products #product-5 .part-1::before {
+  background: url("picture/photo-1546868871-7041f2a55e12.avif") no-repeat center;
+  background-size: cover;
+  transition: all 0.3s;
+}
+
+.section-products #product-6 .part-1::before {
+  background: url("picture/photo-1547996160-81dfa63595aa.avif") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-7 .part-1::before {
+  background: url("picture/photo-1549972574-8e3e1ed6a347.avif") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-8 .part-1::before {
+  background: url("picture/SKW6870_main.jfif") no-repeat center;
+  background-size: cover;
+}
+.section-products #product-9 .part-1::before {
+  background: url("picture/ME3233_main.jfif") no-repeat center;
+  background-size: cover;
+  transition: all 0.3s;
+}
+
+.section-products #product-10 .part-1::before {
+  background: url("picture/s-l1600.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-11 .part-1::before {
+  background: url("picture/Sale.webp") no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-12 .part-1::before {
+  background: url("picture/classic-watches-interface_250435-186.avif") no-repeat center;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #fe302f;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: #444444;
+}
+
+.section-products .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+    transition: color 0.2s;
+}
+
+.section-products .single-product .part-1 ul li a:hover {
+    color: #fe302f;
+}
+
+.section-products .single-product .part-2 .product-title {
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
+}
